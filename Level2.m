@@ -295,6 +295,7 @@
     NSLog(@"DOKANDI ULAA");
     
     if ((touchLocation.x<180.0) && (_gemi.position.x>120) ) {
+        //ksjdhsdfsdufudsfhsdfsf
     
         CCAction* hareketEtme=[CCActionMoveTo actionWithDuration:0.2 position:ccp(_gemi.position.x-30,_gemi.position.y)];
     
